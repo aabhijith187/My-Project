@@ -1,6 +1,9 @@
 {
     "name": "Flask DevContainer",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
+    "features": {
+      "ghcr.io/devcontainers/features/docker-in-docker:2":{}
+    },
     "customizations": {
       "vscode": {
         "extensions": [
